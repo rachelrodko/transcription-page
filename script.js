@@ -14,24 +14,24 @@ const zoom = document.querySelectorAll(".zoom");
 // const tableScroll = document.querySelector(".table-scroll");
 const img1 = {
   id: 1,
-  src: "./img1.jpeg",
+  src: "./images/img1.jpeg",
 };
 const img2 = {
   id: 2,
-  src: "./img2.jpeg",
+  src: "./images/img2.jpeg",
 };
 const img3 = {
   id: 3,
-  src: "./img3.jpg",
+  src: "./images/img3.jpg",
 };
 
 const img4 = {
   id: 4,
-  src: "./img4.jpg",
+  src: "./images/img4.jpg",
 };
 const img5 = {
   id: 5,
-  src: "./img5.jpg",
+  src: "./images/img5.jpg",
 };
 
 const imgs = [img1, img2, img3, img4, img5];
