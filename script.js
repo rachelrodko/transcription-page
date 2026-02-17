@@ -96,13 +96,16 @@ function rotate() {
 
 function zoomFn(e) {
   e.preventDefault();
-  if (e.target.id === "zoom-in") img.style.transform = `scale(${(z += 0.05)})`;
-  else if (e.target.id === "zoom-out" && z > 1)
+  if (e.target.id === "zoom-in") {
+    img.style.transform = `scale(${(z += 0.05)})`;
+    img.style.transformOrigin = `top left 0px`;
+  } else if (e.target.id === "zoom-out" && z > 1) {
     img.style.transform = `scale(${(z -= 0.05)})`;
+    img.style.transformOrigin = `top left 0px`;
+  }
 
   return;
 }
-
 btnRight.addEventListener("click", changeImgForward);
 btnLeft.addEventListener("click", changeImgBack);
 brightnessBtn.addEventListener("click", changeBrightness);
