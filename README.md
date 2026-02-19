@@ -1,7 +1,9 @@
 # Transcription Page
 #### (HTML, CSS, JavaScript)
 
-I am currently working on the Transcription Page for Free Genealogy UK. The purpose of the page is to upload genealogical documents to be displayed and enable transcribers record the data so that information is accessible online. I have almost completed the image carousel to switch between images and the photo editor where the transcriber can adjust the brightness, zoom in and out and rotate the image to make their transcription work easier for historical documents that can be difficult to read.
+I am currently working on the Transcription Page for Free Genealogy UK. The purpose of the page is to upload genealogical documents to be displayed and enable transcribers record the data so that information is accessible online. I have almost completed the image carousel to switch between images and the photo editor where the transcriber can adjust the brightness, zoom in and out and rotate the image to make their transcription work easier for historical documents that can be difficult to read. Built according to Figma Design.
+
+![Figma Transcription Page](images/tp.jpg)
 
 ## View Project
 
